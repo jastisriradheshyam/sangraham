@@ -1,0 +1,14 @@
+body {
+  margin: 0 auto;
+  font-family: sans-serif;
+  background: rgb(0, 0, 0);
+  color: rgb(204, 204, 204);
+}
+
+nav > ul > li {
+	display: inline;
+}
+
+footer {
+	text-decoration: overline underline;
+}
