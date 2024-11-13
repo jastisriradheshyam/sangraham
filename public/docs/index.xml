@@ -1,19 +1,75 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Docs on My New Hugo Site</title>
+    <title>Docs on Sangraham</title>
     <link>http://localhost:1313/docs/</link>
-    <description>Recent content in Docs on My New Hugo Site</description>
+    <description>Recent content in Docs on Sangraham</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Sep 2024 20:09:23 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 Nov 2024 10:02:38 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Golang</title>
+      <link>http://localhost:1313/docs/golang/</link>
+      <pubDate>Mon, 11 Nov 2024 10:02:38 +0000</pubDate>
+      <guid>http://localhost:1313/docs/golang/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/designs/golang_code_organization.png&#34; alt=&#34;GoLangCodeOrganization&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;references&#34;&gt;References:&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://go.dev/doc/code&#34;&gt;How to Write Go Code&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>Microsoft_wsl</title>
+      <link>http://localhost:1313/docs/microsoft_wsl/</link>
+      <pubDate>Fri, 27 Sep 2024 20:30:06 +0000</pubDate>
+      <guid>http://localhost:1313/docs/microsoft_wsl/</guid>
+      <description>&lt;h2 id=&#34;wsl-mount&#34;&gt;WSL mount&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Example is for mounting D drive in the WSL&lt;/li&gt;&#xA;&lt;li&gt;Make mount directory in &lt;code&gt;mnt&lt;/code&gt; : &lt;code&gt;sudo mkdir /mnt/d&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Mount the drive to the directory : &lt;code&gt;sudo mount -t drvfs D: /mnt/d&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>http://localhost:1313/docs/linux/</link>
+      <pubDate>Fri, 27 Sep 2024 17:08:30 +0000</pubDate>
+      <guid>http://localhost:1313/docs/linux/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=-UwCJtLn668&#34;&gt;Leo Explains Linux - YouTube&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Keyboard</title>
+      <link>http://localhost:1313/docs/keyboard/</link>
+      <pubDate>Fri, 27 Sep 2024 14:31:22 +0000</pubDate>
+      <guid>http://localhost:1313/docs/keyboard/</guid>
+      <description>&lt;h2 id=&#34;type&#34;&gt;Type:&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Membrane&lt;/li&gt;&#xA;&lt;li&gt;Mechanical&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;keycaps&#34;&gt;Keycaps&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Double Shot&lt;/li&gt;&#xA;&lt;li&gt;Laser Etched&lt;/li&gt;&#xA;&lt;li&gt;Ink printed&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=TAjuARFIun0&#34;&gt;Corsair K70 CORE {Keyboard} Explained in HINDI {Computer Wednesday} - YouTube&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Lightweight_vm</title>
+      <link>http://localhost:1313/docs/lightweight_vm/</link>
+      <pubDate>Wed, 25 Sep 2024 01:46:04 +0000</pubDate>
+      <guid>http://localhost:1313/docs/lightweight_vm/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;Better isolation&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Jail&#xA;&lt;ul&gt;&#xA;&lt;li&gt;(chroot)&lt;/li&gt;&#xA;&lt;li&gt;privilege seperation (privsep)&lt;/li&gt;&#xA;&lt;li&gt;works better for single tenant workloads&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=wVil7wG-1yg&#34;&gt;We don&amp;rsquo;t use containers, and here&amp;rsquo;s why. - YouTube&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Links_to_go_through</title>
+      <link>http://localhost:1313/docs/links_to_go_through/</link>
+      <pubDate>Mon, 23 Sep 2024 20:36:01 +0000</pubDate>
+      <guid>http://localhost:1313/docs/links_to_go_through/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://christophermeiklejohn.com/publications/cmeiklej_phd_s3d_2024.pdf&#34;&gt;Resilient Microservice Applications, by Design, and without the Chaos&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=zf5HH1BPN4o&#34;&gt;What Comes After Microservices? • Matt Ranney • YOW! 2016 - YouTube&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Strace</title>
+      <link>http://localhost:1313/docs/strace/</link>
+      <pubDate>Sun, 22 Sep 2024 20:33:27 +0000</pubDate>
+      <guid>http://localhost:1313/docs/strace/</guid>
+      <description>&lt;p&gt;&lt;code&gt;strace&lt;/code&gt; is used to capture system calls for a particular program.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Command: &lt;code&gt;sudo strace -c program_name program_params_if_required&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Microsoft_tools</title>
+      <link>http://localhost:1313/docs/microsoft_tools/</link>
+      <pubDate>Sun, 22 Sep 2024 20:28:19 +0000</pubDate>
+      <guid>http://localhost:1313/docs/microsoft_tools/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;Microsoft Powertoys&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/microsoft/PowerToys&#34;&gt;https://github.com/microsoft/PowerToys&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://learn.microsoft.com/en-us/windows/powertoys&#34;&gt;https://learn.microsoft.com/en-us/windows/powertoys&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Microsoft_windows_shortcuts</title>
       <link>http://localhost:1313/docs/microsoft_windows_shortcuts/</link>
       <pubDate>Sun, 22 Sep 2024 20:09:23 +0000</pubDate>
       <guid>http://localhost:1313/docs/microsoft_windows_shortcuts/</guid>
-      <description></description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;Move / Resize a window with Mouse : &lt;code&gt;Alt+Space&lt;/code&gt; will open a menu on top of the window and select move or size as required, once done the operation press &lt;code&gt;enter&lt;/code&gt; to finalize the operation.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
