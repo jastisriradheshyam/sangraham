@@ -29,6 +29,17 @@ a {
     color: darkgreen;
 }
 
+table,
+th,
+td {
+    border: 0.05em solid greenyellow;
+}
+
+th {
+    font-weight: bolder;
+    color: goldenrod;
+}
+
 .hr-line {
     display: block;
     height: 1px;
