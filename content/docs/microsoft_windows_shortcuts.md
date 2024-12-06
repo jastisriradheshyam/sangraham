@@ -1,5 +1,5 @@
 +++
-title = 'Microsoft_windows_shortcuts'
+title = 'Microsoft windows shortcuts'
 date = 2024-09-22T20:09:23Z
 draft = false
 +++

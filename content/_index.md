@@ -5,3 +5,6 @@ draft = false
 +++
 
 Hey, This is a home page
+
+## List of docs
+{{< files-list "docs">}}

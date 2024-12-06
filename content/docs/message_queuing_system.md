@@ -1,5 +1,5 @@
 +++
-title = 'Message_queuing_system'
+title = 'Message queuing system'
 date = 2024-11-13T07:08:01Z
 draft = false
 +++

@@ -1,5 +1,5 @@
 +++
-title = 'Microsoft_wsl'
+title = 'Microsoft WSL'
 date = 2024-09-27T20:30:06Z
 draft = false
 +++
