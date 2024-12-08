@@ -4,7 +4,7 @@ date = 2024-11-11T10:02:38Z
 draft = false
 +++
 
-![GoLangCodeOrganization](/designs/golang_code_organization.png)
+![GoLangCodeOrganization](designs/golang_code_organization.png)
 
 # References:
 
