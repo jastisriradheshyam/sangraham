@@ -1,6 +1,25 @@
 <ul>
-    {{ $section := .Get 0 }} {{ with .Site.GetPage $section }} {{ range .Pages
-    }}
+    {{ $section := .Get 0 }} {{ with .Site.GetPage $section }} {{ range
+    .Sections }}
+
+    <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <!-- Recursive sublist for nested sections -->
+        {{ if .Sections }}
+        <ul>
+            {{ range .Sections }}
+            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+            {{ end }}
+        </ul>
+        {{ end }} {{ if .RegularPages }}
+        <ul>
+            {{ range .RegularPages }}
+            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+            {{ end }}
+        </ul>
+        {{ end }}
+    </li>
+    {{ end }} {{ range .RegularPages }}
     <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
     {{ end }} {{ end }}
 </ul>
