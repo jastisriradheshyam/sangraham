@@ -30,6 +30,30 @@ a {
     text-decoration: underline dotted;
 }
 
+a.footnote-ref::before {
+    content: "[";
+}
+
+a.footnote-ref::after {
+    content: "]";
+}
+
+.footnotes hr {
+    display: none;
+}
+
+.footnotes > ol {
+    counter-reset: items;
+    /* margin-left: 2em; */
+}
+.footnotes > ol > li {
+    counter-increment: items;
+}
+
+.footnotes > ol > li::marker {
+    content: "[" counter(items) "]: ";
+}
+
 table,
 th,
 td {
