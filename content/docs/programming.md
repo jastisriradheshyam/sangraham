@@ -33,14 +33,14 @@ draft = false
 
 Languages support reflection (not a exaustive list)
 
-1. Go [1]
+1. Go [^1]
 2. Java
-3. Javascript [2][3]
+3. Javascript [^2][^3]
 4. Python
 5. .Net
 
 # References
 
-[1]. [The Laws of Reflection - The Go Programming Language](https://go.dev/blog/laws-of-reflection)
-[2]. [ES6 Reflection in Depth](https://ponyfoo.com/articles/es6-reflection-in-depth)
-[3]. [Reflect - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect)
+[^1]:[The Laws of Reflection - The Go Programming Language](https://go.dev/blog/laws-of-reflection)
+[^2]:[ES6 Reflection in Depth](https://ponyfoo.com/articles/es6-reflection-in-depth)
+[^3]:[Reflect - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect)

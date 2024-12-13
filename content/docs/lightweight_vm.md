@@ -13,4 +13,4 @@ draft = false
 
 ## References
 
-- [We don't use containers, and here's why. - YouTube](https://www.youtube.com/watch?v=wVil7wG-1yg)
+1. [We don't use containers, and here's why. - YouTube](https://www.youtube.com/watch?v=wVil7wG-1yg)

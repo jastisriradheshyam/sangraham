@@ -17,4 +17,4 @@ draft = false
 
 ## References
 
-- [Corsair K70 CORE {Keyboard} Explained in HINDI {Computer Wednesday} - YouTube](https://www.youtube.com/watch?v=TAjuARFIun0)
+1. [Corsair K70 CORE {Keyboard} Explained in HINDI {Computer Wednesday} - YouTube](https://www.youtube.com/watch?v=TAjuARFIun0)

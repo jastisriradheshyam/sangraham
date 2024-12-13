@@ -4,7 +4,7 @@ date = 2024-11-12T06:00:00Z
 draft = false
 +++
 
-# Technical Architect (TA)
+# Technical Architect (TA) [^1]
 
 Responsible for designing, building, and overseeing complex technical solutions, ensuring alignment with bussiness requirements and technical standards
 
@@ -99,4 +99,4 @@ Focues on the technical aspects of the architecture, such as software, infrastru
 
 # References:
 
-1. [Understanding the Role of a Technical Architect | Tech Career Insights & Expert Tips](https://www.youtube.com/watch?v=AJRgOl7aMrQ)
+[^1]:[Understanding the Role of a Technical Architect | Tech Career Insights & Expert Tips](https://www.youtube.com/watch?v=AJRgOl7aMrQ)
