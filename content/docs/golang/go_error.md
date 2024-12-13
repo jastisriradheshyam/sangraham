@@ -1,5 +1,5 @@
 +++
-title = 'Go_error'
+title = 'Go: Error'
 date = 2024-12-14T01:40:13+05:30
 draft = false
 +++
