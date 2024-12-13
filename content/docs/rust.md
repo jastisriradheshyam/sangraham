@@ -4,6 +4,39 @@ date = 2024-11-24T00:45:35+05:30
 draft = false
 +++
 
+# Hello world
+
+```rust
+fn main() {
+    println!("Hello world!")
+}
+```
+
+# rustc
+
+- `rustc FILE_NAME.rs`
+  - create a new compiled binary with same filename without `rs` extention
+
+# Cargo
+
+- `cargo build`
+  - `cargo build --release`
+- `cargo run`
+- `cargo check`
+- `cargo update`
+  - update dependencies
+
+# Comments
+
+- `//`
+
+# Functions
+
+## Associated functions
+
+- An associated function is a function that’s implemented on a type.
+  - Invoked like this `String::new()`
+
 # Variables
 
 ```rust

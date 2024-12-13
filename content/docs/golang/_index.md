@@ -6,6 +6,18 @@ draft = false
 
 ![GoLangCodeOrganization](designs/golang_code_organization.png)
 
+# Go Commands
+
+- `go mod`
+- `go get -u PACKAGE`
+- `go run`
+- `go build`
+- `go tidy`
+
+# Categories
+
+{{< files-list "docs/golang">}}
+
 # References:
 
 1. [How to Write Go Code](https://go.dev/doc/code)
