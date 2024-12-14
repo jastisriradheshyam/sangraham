@@ -1,12 +1,18 @@
-<ul>
-    {{ $section := .Get 0 | default .Page.File.Dir }}
-    {{ with .Site.GetPage $section }} 
+<li>
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    <!-- Recursive sublist for nested sections -->
+    {{ if .Sections }}
+    <ul>
         {{ range .Sections }}
         {{ partial "recursive-sections.html" . }}
         {{ end }}
-        
+    </ul>
+    {{ end }} 
+    {{ if .RegularPages }}
+    <ul>
         {{ range .RegularPages }}
         <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
         {{ end }}
+    </ul>
     {{ end }}
-</ul>
+</li>
