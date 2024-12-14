@@ -31,3 +31,7 @@ Often employed on larger scale projects and they are focused on the broad struct
 1. Tasked with designing, building, and maintaining software systems
 2. Write and test code
 3. Consult with stakeholders, third party vendors, security specialists, and other team members
+
+# Software Engineering Application & Design Concepts
+
+{{< files-list "docs/software_engineering">}}

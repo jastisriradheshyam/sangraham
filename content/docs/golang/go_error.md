@@ -97,6 +97,6 @@ func Must[T any](obj T, err error) T {
 
 # References
 
-[^1]:[https://stackoverflow.com/questions/12434565/built-in-helper-for-must-pattern-in-go](Built-in helper for "Must" pattern in Go - Stack Overflow)
+[^1]:[Built-in helper for "Must" pattern in Go - Stack Overflow](https://stackoverflow.com/questions/12434565/built-in-helper-for-must-pattern-in-go)
 [^2]:[regexp package - regexp - Go Packages](https://pkg.go.dev/regexp#MustCompile)
 [^3]:[builtin package - builtin - Go Packages](https://pkg.go.dev/builtin#error)
