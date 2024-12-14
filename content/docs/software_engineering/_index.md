@@ -34,4 +34,4 @@ Often employed on larger scale projects and they are focused on the broad struct
 
 # Software Engineering Application & Design Concepts
 
-{{< files-list "docs/software_engineering">}}
+{{< files-list >}}

@@ -7,4 +7,4 @@ draft = false
 Sangraham : a collection of knowledge
 
 ## List of docs
-{{< files-list "docs">}}
+{{< files-list >}}
