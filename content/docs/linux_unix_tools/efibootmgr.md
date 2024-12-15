@@ -1,6 +1,6 @@
 +++
 title = 'efibootmgr'
-date = 2024-12-16T05:45:42+05:30
+date = 2024-12-16T00:40:42+05:30
 draft = false
 +++
 
