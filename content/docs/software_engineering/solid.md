@@ -12,7 +12,7 @@ A class should only have one reason to change. This minimizes the impact of modi
 
 ## Advantages
 
-- Easier to understand and maintain 
+- Easier to understand and maintain
 - Writing unit test cases for the class becomes easier
 - it provides flexibility as change in one responsibility / class don't affect unrelated parts of the system
 
@@ -26,6 +26,7 @@ An class / any software entity should be open for extension, but closed for modi
 
 # Liskov substitution principle
 
+Let q(x) be a property provable about objects of x of type T. Then q(y) should be provable for objects y of type S where S is a subtype of T.
 function / functions that use pointers or references to base class must be able to use objects of derived classes without knowing it. in terms of class, objects of a superclass should be replaceable with objects of subclasses without affecting the program's correctness.
 
 # Interface segregation principle
@@ -35,11 +36,13 @@ Clients should not be forced to depend upon interfaces they do not use.
 ## Advantages
 
 - Encourages creating multiple, specific interfaces rather than a single, general purpose interface
-- It prevents a class from being forced to implement interface it doesn't use. Reducing the side effects of changes in unrelated interfaces. 
+- It prevents a class from being forced to implement interface it doesn't use. Reducing the side effects of changes in unrelated interfaces.
 
 # Dependency inversion principle
 
 High level modules shouldn't depend on low level modules. Both should depend on abstractions.
+Abstractions should not depend on details. Details should depend upon abstractions.
+Class should depend on interfaces rather then concerte classes.
 
 # Additional Links
 
