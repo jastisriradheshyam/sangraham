@@ -130,6 +130,9 @@ th {
 }
 
 code {
-    background-color: brown;
-    color: antiquewhite;
+    background-color: #444444;
+    color: #00ffff;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 0.5em;
 }
