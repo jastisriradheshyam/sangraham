@@ -128,3 +128,8 @@ th {
     background-color: #522d5b;
     clip-path: polygon(0 20%, 0% 0, 100% 0, 100% 70%, 40% 100%, 0% 100%);
 }
+
+code {
+    background-color: brown;
+    color: antiquewhite;
+}
