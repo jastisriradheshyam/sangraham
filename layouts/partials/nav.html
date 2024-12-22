@@ -1,5 +1,17 @@
+{{ $image := resources.Get "images/sangraham-logo.png" }}
 <nav>
     <ul>
+        <img
+            style="
+                height: 2em;
+                border-radius: 0.5em;
+                margin-right: 1em;
+                bottom: 0px;
+                transform: translateY(0.3em);
+            "
+            src="{{ $image.Permalink }}"
+            alt="Sangraham Logo"
+        />
         <li><a href="/">Home</a></li>
         <li><a href="/about">About</a></li>
     </ul>
