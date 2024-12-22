@@ -87,45 +87,43 @@ Few examples of pagination:
 ## Error Responses
 
 1. Incorporating hints about how to fix errors and a link to get more infomation.
-
-```json
-{
-  "code": 23213,
-  "message": "MESSAGE",
-  "info": "https://SOME_DOMAIN/docs/error/CODE"
-}
-```
+    ```json
+    {
+      "code": 23213,
+      "message": "MESSAGE",
+      "info": "https://SOME_DOMAIN/docs/error/CODE"
+    }
+    ```
 
 Examples by different orgs:
 
-Facebook
-```json
-{
-  "type": "OAuthExeption",
-  "message": "----"
-}
-```
+1. Facebook
+    ```json
+    {
+      "type": "OAuthExeption",
+      "message": "----"
+    }
+    ```
 
-Twillo
-```json
-{
-  "status": 401,
-  "message" "",
-  "code": 20003,
-  "more_info": "http://twillo.com/docs/erros/20003"
-}
-```
+2. Twillo
+    ```json
+    {
+      "status": 401,
+      "message" "",
+      "code": 20003,
+      "more_info": "http://twillo.com/docs/erros/20003"
+    }
+    ```
 
 ## Assosiations
 
 Assosiations used to represent relationships between entities
 
 1. Create for assosiations resource
-
-```text
-POST `/owners/1234/cars`
-GET `/owners/1234/cars/1244`
-```
+    ```text
+    POST `/owners/1234/cars`
+    GET `/owners/1234/cars/1244`
+    ```
 
 ## Complex variations
 
