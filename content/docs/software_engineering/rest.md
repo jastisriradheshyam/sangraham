@@ -18,43 +18,43 @@ REST (Representational State Transfer)
 # Cache
 
 1. When caching is utilized and resource is requested from a server,
-  - if the content is modified then we send `200 Ok` HTTP status in response.
-  - if the content is not modified then we send `304 Not Modified` HTTP status in response.
+    - if the content is modified then we send `200 Ok` HTTP status in response.
+    - if the content is not modified then we send `304 Not Modified` HTTP status in response.
 
 # Best Practices
 
 ## Resources
 
 1. We only need 2 base URLs per resource
-  - collection (`/cars`)
-  - element (`/cars/1244`)
+    - collection (`/cars`)
+    - element (`/cars/1244`)
 
 2. 4 operations (CRUD)
-  - POST (Create)
-    - `/cars`: create a new car
-    - `/cars/1244`: create a new car with id `1244` or fail
-  - GET (read)
-    - `/cars`: list cars
-    - `/cars/1244`: show car 1244
-  - PUT (update)
-    - `/cars` : replace cars
-    - `/cars/1244`: if exists update car 1244, if not, create car 1244 or fail
-  - DELETE (delete)
-    - `/cars` : delete all cars
-    - `/cars/1244`: delete car 1244
+    - POST (Create)
+      - `/cars`: create a new car
+      - `/cars/1244`: create a new car with id `1244` or fail
+    - GET (read)
+      - `/cars`: list cars
+      - `/cars/1244`: show car 1244
+    - PUT (update)
+      - `/cars` : replace cars
+      - `/cars/1244`: if exists update car 1244, if not, create car 1244 or fail
+    - DELETE (delete)
+      - `/cars` : delete all cars
+      - `/cars/1244`: delete car 1244
 
 3. Avoid verbs to name your resources. Use plural nouns.
 4. Use verbs only if the functionality provided by the call is an operation and not a resource, such as:
-  - Calculate
-  - Convert
-  - Translate
+    - Calculate
+    - Convert
+    - Translate
 5. Be consistent
 6. Use concrete resource names instead of abstract ones. e.g., `/cars`, `/cats`
 
 ## Response format
 
 1. Use the Accept header
-  - `accept: application/header`
+    - `accept: application/header`
 2. Use JSON as default response format
 
 Few examples how respose format:
@@ -81,7 +81,7 @@ Few examples of pagination:
 ## Errors, HTTP status codes
 
 1. Avoid having more than 8 error codes
-  - `200 201 304 400 401 403 404 500`
+    - `200 201 304 400 401 403 404 500`
 2. Use the same error codes accross all different API's
 
 ## Error Responses
@@ -166,24 +166,24 @@ Examples by different orgs:
 1. API gateway : `api.domain.com`
 2. Developers Portal: `developers.domain.com`
 3. Configure web redirects:
-  - api -> developers (if from browser)
-  - dev -> developers
-  - developers -> developers
+    - api -> developers (if from browser)
+    - dev -> developers
+    - developers -> developers
 
 Examples by different orgs:
 
 1. Foursquare
-  - `api.foursquare.com`
-  - `developers.foursquare.com`
+    - `api.foursquare.com`
+    - `developers.foursquare.com`
 2. Twitter (X)
-  - `api.twitter.com`
-  - `search.twitter.com`
-  - `stream.twitter.com`
-  - `dev.twitter.com`
+    - `api.twitter.com`
+    - `search.twitter.com`
+    - `stream.twitter.com`
+    - `dev.twitter.com`
 3. Facebook
-  - `graph.facebook.com`
-  - `api.facebook.com`
-  - `developers.facebook.com`
+    - `graph.facebook.com`
+    - `api.facebook.com`
+    - `developers.facebook.com`
 
 ## Authentication
 
