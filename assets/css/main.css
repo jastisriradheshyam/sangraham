@@ -3,6 +3,7 @@ body {
     font-family: sans-serif;
     background: rgb(0, 0, 0);
     color: rgb(204, 204, 204);
+    width: 100em;
 }
 
 nav {
@@ -132,7 +133,22 @@ th {
 code {
     background-color: #272822;
     color: #00ffff;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
     border-radius: 0.5em;
+}
+
+.highlight {
+    width: 50em;
+}
+
+.highlight > div {
+    border-radius: 0.7em;
+    padding: 0 1em;
+}
+
+/* linenos=false or linenos=inline */
+.highlight > pre {
+    border-radius: 0.7em;
+    padding: 1em;
 }
