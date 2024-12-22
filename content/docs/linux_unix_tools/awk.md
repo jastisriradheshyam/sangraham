@@ -4,7 +4,7 @@ date = 2024-12-15T03:57:09+05:30
 draft = false
 +++
 
-- intended for simple data processing and analysis: 
+- intended for simple data processing and analysis:
     - selection, validation
         - "print all lines longer than 80 characters"
         - `length > 80`
@@ -13,32 +13,31 @@ draft = false
         - `{ $2 = log($2); print }`
     - report generation
         - "Add up numbers in first field, print sum and average"
-        - ```
+        - ```text
                 { sum += $1}
             END { print sum, sum/NR }
-            ```
+          ```
 
 ## structure of an awk program
-- a program is a sequence of pattern-action statements
-
-```
-pattern {action}
-pattern {action}
-...
-```
-- a pattern is a regular expression, numeric expression, string expression or combination
-- an action is executable code, similar to C
-- usage:  
-`awk 'program' [ file1 file2 ...]`  
-`awk -f progfile [ file1 file2 ... ]`
+- A program is a sequence of pattern-action statements
+    ```text
+    pattern {action}
+    pattern {action}
+    ...
+    ```
+- A pattern is a regular expression, numeric expression, string expression or combination
+- An action is executable code, similar to C
+- usage:
+    `awk 'program' [ file1 file2 ...]`
+    `awk -f progfile [ file1 file2 ... ]`
 - operation
-```
-for each file
-    for each input line
-        for each pattern
-            if pattern matches input line
-                do the action
-```
+    ```text
+    for each file
+        for each input line
+            for each pattern
+                if pattern matches input line
+                    do the action
+    ```
 
 ## awk features for 1-liners
 - input is read automatically across multiple files
@@ -60,26 +59,26 @@ for each file
 - canonical example: adding up name-value pairs
 
 - input:
-```
-pizza 200
-beer 100
-pizza 500
-beer 50
-```
-  
+    ```text
+    pizza 200
+    beer 100
+    pizza 500
+    beer 50
+    ```
+
 - output:
-```
-pizza 700
-beer 150
-```
-  
+    ```text
+    pizza 700
+    beer 150
+    ```
+
 - program
-```
-{ amount[$1] += $2 }
-END { for (name in amount)
-    print name,amount[name] | "sort -k1 -nr"
-}
-```
+    ```text
+    { amount[$1] += $2 }
+    END { for (name in amount)
+        print name,amount[name] | "sort -k1 -nr"
+    }
+    ```
 
 # References:
 

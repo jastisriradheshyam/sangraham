@@ -6,7 +6,7 @@ draft = false
 
 # Sample `.git` directory
 
-```
+```text
 .git
 ├── branches
 ├── COMMIT_EDITMSG

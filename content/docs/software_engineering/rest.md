@@ -122,7 +122,7 @@ Assosiations used to represent relationships between entities
 
 1. Create for assosiations resource
 
-```
+```text
 POST `/owners/1234/cars`
 GET `/owners/1234/cars/1244`
 ```
@@ -130,8 +130,7 @@ GET `/owners/1234/cars/1244`
 ## Complex variations
 
 1. Sweep variations behind the `?` in the query string
-
-`GET /cars?color=red&location=newyork`
+  `GET /cars?color=red&location=newyork`
 
 ## Versioning
 
