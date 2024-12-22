@@ -6,4 +6,8 @@ draft = false
 
 # Structural patterns
 
-- Repository Pattern
+1. Repository Pattern
+
+# Structural patterns
+
+# Behavioral patterns
