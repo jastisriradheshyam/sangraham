@@ -2,6 +2,7 @@
 title = 'Job Roles'
 date = 2024-11-12T06:00:00Z
 draft = false
+description = 'Information on different types of job roles'
 +++
 
 # Technical Architect (TA) [^1]

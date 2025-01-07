@@ -2,6 +2,7 @@
 title = 'Make'
 date = 2024-12-09T13:34:24+05:30
 draft = false
+description = 'Information on make command'
 +++
 
 # Seperator

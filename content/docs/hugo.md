@@ -2,6 +2,7 @@
 title = 'Hugo'
 date = 2024-12-07T02:39:01+05:30
 draft = false
+description = 'Information on Hugo'
 +++
 
 - Simple testing server: `hugo server`

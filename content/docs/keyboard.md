@@ -2,6 +2,7 @@
 title = 'Keyboard'
 date = 2024-09-27T14:31:22Z
 draft = false
+description = "Information on keyboard and it's assositated technologies"
 +++
 
 ## Type:

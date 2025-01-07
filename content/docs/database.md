@@ -2,6 +2,7 @@
 title = 'Database'
 date = 2024-11-12T07:55:05Z
 draft = false
+description = 'Information on Database technologies'
 +++
 
 # Database Scaling
@@ -43,6 +44,10 @@ draft = false
     -  the concurrent transactions don't interfere with or affect one another.
 - Durability
     -  changes to your data made by successfully executed transactions will be saved, even in the event of system failure.
+
+# Additional Reads
+
+1. [MySQL vs PostgreSQL -- Choose the Right Database for Your Project | Okta Developer](https://developer.okta.com/blog/2019/07/19/mysql-vs-postgres)
 
 # References
 

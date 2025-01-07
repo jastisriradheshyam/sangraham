@@ -2,6 +2,7 @@
 title = 'REST'
 date = 2024-12-22T05:08:33+05:30
 draft = false
+description = 'Information on REST architectural style'
 +++
 
 REST (Representational State Transfer)

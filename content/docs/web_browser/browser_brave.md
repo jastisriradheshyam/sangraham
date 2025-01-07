@@ -2,6 +2,7 @@
 title = 'Brave Browser'
 date = 2024-12-15T03:59:28+05:30
 draft = false
+description = 'Information on Brave browser'
 +++
 
 # Tab scrolling

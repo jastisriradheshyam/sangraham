@@ -2,6 +2,7 @@
 title = 'SOLID'
 date = 2024-12-14T15:01:02+05:30
 draft = false
+description = 'Information on SOLID principles'
 +++
 
 **SOLID (Single Responsibility, Open Close Principle, Liskov Substitution, Interface Segregation, Dependency Inversion)**

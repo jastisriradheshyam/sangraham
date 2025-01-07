@@ -2,6 +2,7 @@
 title = 'Permissions'
 date = 2024-11-13T07:02:20Z
 draft = false
+description = 'Information on website and application permissions'
 +++
 
 # RBAC (Role Based Access Control)

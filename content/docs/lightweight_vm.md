@@ -2,6 +2,7 @@
 title = 'Lightweight VM'
 date = 2024-09-25T01:46:04Z
 draft = false
+description = 'Information on lightweight virtual machine'
 +++
 
 - Better isolation

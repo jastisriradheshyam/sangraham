@@ -2,6 +2,7 @@
 title = 'Firefox Web Browser'
 date = 2024-12-16T00:47:10+05:30
 draft = false
+description = 'Information on Firefox browser'
 +++
 
 # Information and config URLs
