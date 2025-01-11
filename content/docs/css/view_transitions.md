@@ -2,6 +2,7 @@
 title = 'View Transitions'
 date = 2024-12-19T20:56:34+05:30
 draft = false
+description = "Information on CSS View Transitions"
 +++
 
 

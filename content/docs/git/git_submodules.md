@@ -2,6 +2,7 @@
 title = 'Git Submodules'
 date = 2024-12-19T19:13:57+05:30
 draft = false
+description = "Information on Git Submodules"
 +++
 
 # Submodule with only specific path from the submodule

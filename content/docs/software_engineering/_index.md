@@ -2,6 +2,7 @@
 title = 'Software Engineering'
 date = 2024-12-07T02:39:14+05:30
 draft = false
+description = 'Software Engineering'
 +++
 
 Software Engineering is the application of scientific principles to the design and creation of software

@@ -2,6 +2,7 @@
 title = 'cat'
 date = 2024-12-15T04:13:10+05:30
 draft = false
+description = "Information on cat command"
 +++
 
 ```sh

@@ -2,6 +2,7 @@
 title = 'kill'
 date = 2024-12-19T19:30:53+05:30
 draft = false
+description = "Information on Kill command"
 +++
 
 # Commands

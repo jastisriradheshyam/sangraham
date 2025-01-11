@@ -2,6 +2,7 @@
 title = 'Date'
 date = 2024-12-15T04:19:35+05:30
 draft = false
+description = "Information on date command"
 +++
 
 - print local date and time: `date`

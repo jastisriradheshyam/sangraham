@@ -2,6 +2,7 @@
 title = 'Kubernetes'
 date = 2024-12-23T06:55:10+05:30
 draft = false
+description = "Information on Kubernetes"
 +++
 
 # Kubernetes commands

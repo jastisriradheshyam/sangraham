@@ -2,13 +2,14 @@
 title = 'Microsoft Windows'
 date = 2024-09-22T20:09:23Z
 draft = false
+description = "Information on Microsoft Windows"
 +++
 
 # Shutdown
 
 - Shutdown directly to BIOS (only works for UEFI)
   - `shutdown /r /fw /f /t 0`
-  - `F1 F10 F12 Del`  
+  - `F1 F10 F12 Del`
 
 # Shortcuts
 

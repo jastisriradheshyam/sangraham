@@ -2,6 +2,7 @@
 title = 'Kubernetes Operator'
 date = 2024-12-23T06:55:21+05:30
 draft = false
+description = "Information on Kubernetes Operator"
 +++
 
 Operator is a design pattern for extending the API of a Kubernetes cluster to include a new resource type that you define the behavior of. This resource can then be used in the same manner as Kubernetes core resources.

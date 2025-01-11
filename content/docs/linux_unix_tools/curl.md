@@ -2,6 +2,7 @@
 title = 'Curl'
 date = 2024-12-15T04:19:08+05:30
 draft = false
+description = "Information on Curl command"
 +++
 
 - save the output in the mentioned path: `curl -o URL file_path`

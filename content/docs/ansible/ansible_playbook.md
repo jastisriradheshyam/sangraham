@@ -2,6 +2,7 @@
 title = 'Ansible Playbook'
 date = 2024-12-15T03:55:34+05:30
 draft = false
+description = "Information on Ansible Playbook"
 +++
 
 - Become user
@@ -46,7 +47,7 @@ draft = false
 - ls
   - ```yaml
     - name: run ls and register the output
-      ansible.builtin.command: 
+      ansible.builtin.command:
         chdir: /root
         cmd: ls -alh
       register: shell_result

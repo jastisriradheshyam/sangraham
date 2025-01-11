@@ -2,6 +2,7 @@
 title = 'Git'
 date = 2024-12-19T19:11:46+05:30
 draft = false
+description = "Information on Git"
 +++
 
 # Related docs

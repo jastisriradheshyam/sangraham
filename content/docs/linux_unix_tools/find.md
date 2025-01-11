@@ -2,6 +2,7 @@
 title = 'find'
 date = 2024-12-16T00:40:45+05:30
 draft = false
+description = "Information on find command"
 +++
 
 - find a file: `find FROM_DIRECTORY -name 'FILE_NAME_OR_NAME_PATTERN'`

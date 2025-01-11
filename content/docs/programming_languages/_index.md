@@ -2,6 +2,7 @@
 title = 'Programming Languages'
 date = 2024-12-19T19:05:15+05:30
 draft = false
+description = 'Information on programming languages'
 +++
 
 # Languages

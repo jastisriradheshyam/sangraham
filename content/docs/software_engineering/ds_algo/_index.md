@@ -2,6 +2,7 @@
 title = 'DS Algo'
 date = 2024-12-20T23:24:59+05:30
 draft = false
+description = 'Data structures and Algorithms'
 +++
 
 # Dynamic Programming

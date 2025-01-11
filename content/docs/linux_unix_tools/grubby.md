@@ -2,6 +2,7 @@
 title = 'Grubby'
 date = 2024-12-19T19:28:25+05:30
 draft = false
+description = "Information on Grubby command"
 +++
 
 - It is a tool to handle Grub boot manager

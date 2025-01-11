@@ -2,6 +2,7 @@
 title = 'Firewall'
 date = 2024-12-16T00:40:49+05:30
 draft = false
+description = "Information on Firewall command"
 +++
 
 - Trusted Interface:

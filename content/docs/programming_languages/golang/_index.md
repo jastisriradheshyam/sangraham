@@ -2,6 +2,7 @@
 title = 'Golang'
 date = 2024-11-11T10:02:38Z
 draft = false
+description = 'Golang'
 +++
 
 ![GoLangCodeOrganization](designs/golang_code_organization.png)

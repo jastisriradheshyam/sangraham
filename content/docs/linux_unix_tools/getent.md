@@ -2,6 +2,7 @@
 title = 'getent'
 date = 2024-12-16T00:40:51+05:30
 draft = false
+description = "Information on getent command"
 +++
 
 - get the entries from multiple administrative databases

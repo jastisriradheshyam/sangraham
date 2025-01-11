@@ -2,6 +2,7 @@
 title = 'ip'
 date = 2024-12-19T19:29:37+05:30
 draft = false
+description = "Information on ip command"
 +++
 
 - lists your routes :`ip r` or `ip route`

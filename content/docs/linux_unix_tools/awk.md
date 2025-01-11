@@ -2,6 +2,7 @@
 title = 'AWK'
 date = 2024-12-15T03:57:09+05:30
 draft = false
+description = "Information on AWK command"
 +++
 
 - intended for simple data processing and analysis:

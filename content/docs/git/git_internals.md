@@ -2,6 +2,7 @@
 title = 'Git Internals'
 date = 2024-12-19T19:13:30+05:30
 draft = false
+description = "Information on Git Internals"
 +++
 
 # Sample `.git` directory

@@ -2,6 +2,7 @@
 title = 'Rust'
 date = 2024-11-24T00:45:35+05:30
 draft = false
+description = 'Information on Rust programming language'
 +++
 
 # Hello world

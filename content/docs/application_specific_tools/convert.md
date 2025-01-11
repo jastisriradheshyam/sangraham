@@ -2,6 +2,7 @@
 title = 'ImageMagick Convert'
 date = 2024-12-15T04:15:54+05:30
 draft = false
+description = "Information on ImageMagick Convert"
 +++
 
 A ImageMagick tool

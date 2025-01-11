@@ -2,6 +2,7 @@
 title = 'crontab'
 date = 2024-12-15T04:17:51+05:30
 draft = false
+description = "Information on crontab command"
 +++
 
 - Crontab's maintained for user by user basis

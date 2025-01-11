@@ -2,6 +2,7 @@
 title = 'Go: Reflection'
 date = 2024-12-11T15:29:18Z
 draft = false
+description = 'Information on Golang reflection'
 +++
 
 Examine, introspect, and modify behavior at runtime.[^2]

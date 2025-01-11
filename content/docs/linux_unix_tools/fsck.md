@@ -2,6 +2,7 @@
 title = 'fsck'
 date = 2024-12-16T00:40:15+05:30
 draft = false
+description = "Information on fsck command"
 +++
 
 - Used to check file systems for errors and repair them if possible

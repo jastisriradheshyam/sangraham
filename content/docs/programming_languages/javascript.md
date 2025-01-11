@@ -2,6 +2,7 @@
 title = 'Javascript'
 date = 2024-12-08T23:50:08+05:30
 draft = false
+description = 'Information on Javascript'
 +++
 
 ## Colors in Javascript console [^1]

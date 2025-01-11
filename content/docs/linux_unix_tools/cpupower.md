@@ -2,6 +2,7 @@
 title = 'cpupower'
 date = 2024-12-15T04:16:47+05:30
 draft = false
+description = "Information on cpupower command"
 +++
 
 - Set the performance: `sudo cpupower frequency-set --governor performance`

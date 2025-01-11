@@ -2,6 +2,7 @@
 title = 'efibootmgr'
 date = 2024-12-16T00:40:42+05:30
 draft = false
+description = "Information on efibootmgr command"
 +++
 
 Used to edit the efi boot records

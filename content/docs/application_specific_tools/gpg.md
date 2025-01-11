@@ -2,6 +2,7 @@
 title = 'GPG'
 date = 2024-12-19T19:23:56+05:30
 draft = false
+description = "Information on GPG"
 +++
 
 # GPG common commands

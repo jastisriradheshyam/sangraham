@@ -2,6 +2,7 @@
 title = 'CAP Theorem'
 date = 2024-12-14T14:58:48+05:30
 draft = false
+description = 'Information on CAP Theorem'
 +++
 
 CAP (Consistency, Availability, Partition Tolerance)
