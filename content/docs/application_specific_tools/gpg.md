@@ -34,6 +34,19 @@ description = "Information on GPG"
   - importing is required once per a external device.
   - On windows (powershell) : `$ENV:GNUPGHOME=/path/to/the/a/desired/directory/in/external/drive/`
 
+## On Mac OS with FAT32 devices [^4]
+
+- On Mac OS with FAT32 devices we cannot create socket on it
+- In the GPG directory of removable drive run the following commands
+```sh
+echo '%Assuan%\nsocket=${HOME}/.gnupg/S.dirmngr' > S.dirmngr
+echo '%Assuan%\nsocket=${HOME}/.gnupg/S.gpg-agent.ssh' > S.gpg-agent.ssh
+echo '%Assuan%\nsocket=${HOME}/.gnupg/S.gpg-agent.extra' > S.gpg-agent.extra
+echo '%Assuan%\nsocket=${HOME}/.gnupg/S.gpg-agent.browser' > S.gpg-agent.browser
+echo '%Assuan%\nsocket=${HOME}/.gnupg/S.gpg-agent' > S.gpg-agent
+```
+- `killall gpg-agent`
+
 # Disable Password Caching [^3]
 
 - `vi ~/.gnupg/gpg.conf`
@@ -69,3 +82,4 @@ max-cache-ttl 1
 1. [encryption - GnuPG decryption not asking for passphrase - Information Security Stack Exchange](https://security.stackexchange.com/a/230555/184792)
 2. [homedir](https://www.gnupg.org/gph/en/manual/r1616.html)
 [^3]: [encryption - GnuPG decryption not asking for passphrase - Information Security Stack Exchange](https://security.stackexchange.com/questions/103034/gnupg-decryption-not-asking-for-passphrase/103037#103037)
+[^4]: [GPG on the flash drive (Windows FAT 32) · GitHub](https://gist.github.com/emacsist/71faa637e3fc866e1808e408c2b4ae1b)
