@@ -20,6 +20,6 @@ Every read gets the most recent write or returns an error.
 
 Every request gets a response and be available, even if it's not the latest data.
 
-# Partiation Tolerance
+# Partition Tolerance
 
 System stays operational even when there are network faults.

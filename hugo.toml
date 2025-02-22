@@ -4,3 +4,7 @@ title = 'Sangraham'
 enableRobotsTXT = true
 [sitemap]
 changeFreq = 'daily'
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
