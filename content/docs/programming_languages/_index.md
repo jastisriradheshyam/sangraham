@@ -35,6 +35,15 @@ Languages support reflection (not a exaustive list)
 4. Python
 5. .Net
 
+# Programming conceptual memory mapping [^4]
+
+- Program code (object code in case of compiled)
+- Global variables
+- Stack
+    - It holds retrun addresses of function calls, arguments to functions, local variables, also current state of CPU, etc.
+- Heap
+    - region where dynamic allocation is preformed at run time.
+
 # References
 
 [^1]:[The Laws of Reflection - The Go Programming Language](https://go.dev/blog/laws-of-reflection)
