@@ -114,6 +114,7 @@ th {
 .cut-border-box {
     display: inline;
     background-color: #522d5b;
+    padding-right: 0.1em;
 }
 
 .cut-border-box-left {

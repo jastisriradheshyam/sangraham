@@ -1,3 +1,4 @@
+{{ $sangraham_icon := resources.Get "images/sangraham-icon.png" }}
 <!doctype html>
 <html lang="en">
     <head>
@@ -8,6 +9,7 @@
         <title>{{ .Page.Title }} | {{ .Site.Title }}</title>
         <meta itemprop="name" content="{{ .Title }} | {{ .Site.Title }}" />
         <meta name="description" content="{{ .Params.description }}" />
+        <link rel="icon" type="image/png" href="{{ $sangraham_icon.Permalink }}">
     </head>
 
     <body>
