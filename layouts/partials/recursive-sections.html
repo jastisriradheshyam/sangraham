@@ -1,4 +1,4 @@
-<li>
+<li class="list-item">
     <a href="{{ .RelPermalink }}">{{ .Title }}</a>
     <!-- Recursive sublist for nested sections -->
     {{ if .Sections }}
@@ -11,7 +11,7 @@
     {{ if .RegularPages }}
     <ul>
         {{ range .RegularPages }}
-        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        <li class="list-item"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
         {{ end }}
     </ul>
     {{ end }}
