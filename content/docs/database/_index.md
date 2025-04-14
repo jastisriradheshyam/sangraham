@@ -5,6 +5,9 @@ draft = false
 description = 'Information on Database technologies'
 +++
 
+# List of databases
+{{< files-list >}}
+
 # Database Scaling
 
 - Indexing
