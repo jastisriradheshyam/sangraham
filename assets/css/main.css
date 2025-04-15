@@ -3,11 +3,14 @@ body {
     font-family: sans-serif;
     background: rgb(0, 0, 0);
     color: rgb(204, 204, 204);
-    width: 100em;
+    width: 90%;
 }
 
 nav {
     font-size: 1.5em;
+}
+nav > ul {
+    margin: 0;
 }
 nav > ul > li {
     background-color: #1b1b1b;
@@ -71,7 +74,7 @@ th {
     height: 1px;
     border: 0;
     border-top: 1px solid cadetblue;
-    margin: 1em 0;
+    margin: 0.5em 0;
     padding: 0;
 }
 
@@ -85,8 +88,13 @@ th {
     text-align: center;
 }
 
+.breadcrumb {
+    margin-bottom: 0.5em;
+}
+
 .breadcrumb ol {
     padding-left: 0;
+    margin: 0;
 }
 
 .breadcrumb li {
@@ -154,5 +162,5 @@ code {
 }
 
 .list-item {
-    padding: 0.15em 0 0.15em 0
+    margin: 0.5em;
 }
