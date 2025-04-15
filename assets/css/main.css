@@ -147,6 +147,8 @@ code {
 }
 
 .highlight {
+    width: fit-content;
+    padding-right: 1em;
     max-width: 50em;
 }
 
