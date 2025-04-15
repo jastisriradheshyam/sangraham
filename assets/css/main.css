@@ -147,8 +147,7 @@ code {
 }
 
 .highlight {
-    width: fit-content;
-    padding-right: 1em;
+    width: 100%;
     max-width: 50em;
 }
 
@@ -161,6 +160,7 @@ code {
 .highlight > pre {
     border-radius: 0.7em;
     padding: 1em;
+    overflow: scroll clip;
 }
 
 .list-item {
