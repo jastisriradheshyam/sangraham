@@ -160,7 +160,8 @@ code {
 .highlight > pre {
     border-radius: 0.7em;
     padding: 1em;
-    overflow: scroll clip;
+    overflow-x: scroll;
+    display: flex;
 }
 
 .list-item {
