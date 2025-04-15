@@ -147,7 +147,7 @@ code {
 }
 
 .highlight {
-    width: 50em;
+    max-width: 50em;
 }
 
 .highlight > div {
