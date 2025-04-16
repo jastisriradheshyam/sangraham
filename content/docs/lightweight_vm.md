@@ -8,7 +8,7 @@ description = 'Information on lightweight virtual machine'
 - Better isolation
   - Jail
     - (chroot)
-    - privilege seperation (privsep)
+    - privilege separation (privsep)
     - works better for single tenant workloads
 
 

@@ -5,11 +5,11 @@ draft = false
 description = 'Information on make command'
 +++
 
-# Seperator
+# Separator
 
-- Make file uses tab as a seperator,
+- Make file uses tab as a separator,
   - if similar error (`Makefile:2: *** missing separator.  Stop.`) is presented when running make file then this might be the issue.
-  - Code editors some times replace tab with equavalent spaces. [^1]
+  - Code editors some times replace tab with equivalent spaces. [^1]
 
 # References
 

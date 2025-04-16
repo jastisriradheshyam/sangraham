@@ -6,7 +6,7 @@ description = "Daemon set in kubernetes"
 +++
 
 - A DaemonSet ensures that all or some nodes run a copy of a pod.
-- Got Stabe in K8 version 1.7
+- Got Stable in K8 version 1.7
 
 ```yaml
 apiVersion: apps/v1

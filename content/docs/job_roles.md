@@ -9,7 +9,7 @@ description = 'Information on different types of job roles'
 
 Responsible for designing, building, and overseeing complex technical solutions, ensuring alignment with bussiness requirements and technical standards
 
-Focues on the technical aspects of the architecture, such as software, infrastructure, and data flow.
+Focuses on the technical aspects of the architecture, such as software, infrastructure, and data flow.
 
 ## Primary Responsibilities
 
@@ -20,8 +20,8 @@ Focues on the technical aspects of the architecture, such as software, infrastru
 - Project Oversight
     - Ensure project alignment with the architectural vision
 - Quality Assurance
-    - Maintain high standards for code, scalibility, and security.
-- Stackholder Communication
+    - Maintain high standards for code, scalability, and security.
+- Stakeholder Communication
     - Work closely with clients, project managers, and other architects.
 
 ## Technical Skills
@@ -35,24 +35,24 @@ Focues on the technical aspects of the architecture, such as software, infrastru
 ## Soft Skills
 
 - Lead and monitor the technical team.
-- Stategic thinking: Analyzing complex requirements and designing scalable solutions.
-- Problem Solving: Troubleshooting techical issues and optimizing system performace.
-- Effective communication: Bridging techinical and non-technical stackholders
+- Strategic thinking: Analyzing complex requirements and designing scalable solutions.
+- Problem Solving: Troubleshooting technical issues and optimizing system performance.
+- Effective communication: Bridging technical and non-technical stakeholders
 - Time Management: Handling multiple projects while meeting deadlines.
 
-## Architectural Principles and Pratterns
+## Architectural Principles and Patterns
 
-- SOLID Priniples
+- SOLID Principles
 - Microservices & Monolithic
 - Event-Driven Architecture
     - managing real-time data with minimal delay
 - Design Patterns
-    - Signleton, factory, observer, etc. for reusable solutions.
+    - Singleton, factory, observer, etc. for reusable solutions.
 
-## Core Responsibilites across project phases
+## Core Responsibilities across project phases
 
-- Initiation phase: Requirement analysis, technology selection, inital design.
-- Planning phase: Define architrectural strategy, create roadmaps, plan resources
+- Initiation phase: Requirement analysis, technology selection, initial design.
+- Planning phase: Define architectural strategy, create roadmap's, plan resources
 - Execution phase: Guide development, monitor technical progress, ensure code quality
 - Maintenance Phase: Oversee deployments, troubleshoot issues, manage updates.
 
@@ -65,7 +65,7 @@ Focues on the technical aspects of the architecture, such as software, infrastru
     - Jira, Confluence, Slack, MS Teams, etc.
 - Cloud Platforms
 
-## Challenges faces by a techical architect
+## Challenges faces by a technical architect
 
 - Balancing innovation with stability
     - Implementing new technologies while ensuring stability.

@@ -2,7 +2,7 @@
 title = 'Keyboard'
 date = 2024-09-27T14:31:22Z
 draft = false
-description = "Information on keyboard and it's assositated technologies"
+description = "Information on keyboard and it's associated technologies"
 +++
 
 ## Type:
@@ -10,7 +10,7 @@ description = "Information on keyboard and it's assositated technologies"
 - Membrane
 - Mechanical
 
-## Keycaps
+## Key Caps
 
 - Double Shot
 - Laser Etched
