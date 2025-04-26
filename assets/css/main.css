@@ -160,7 +160,7 @@ code {
 .highlight > pre {
     border-radius: 0.7em;
     padding: 1em;
-    overflow-x: scroll;
+    overflow-x: auto;
     display: flex;
 }
 

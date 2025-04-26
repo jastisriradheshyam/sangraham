@@ -37,7 +37,7 @@ tolerations:
 - `node.kubernetes.io/unschedulable`
 
 
-# Set Tolerance so that it schedules on every node [1]
+# Set Tolerance so that it schedules on every node [^1]
 
 ```yaml
 tolerations:
@@ -47,4 +47,4 @@ tolerations:
 
 # References
 
-[1]: [Helm: set tolerations for promtail in loki-stack chart · Issue #2298 · grafana/loki · GitHub](https://github.com/grafana/loki/issues/2298#issuecomment-739924467)
+[^1]:[Helm: set tolerations for promtail in loki-stack chart · Issue #2298 · grafana/loki · GitHub](https://github.com/grafana/loki/issues/2298#issuecomment-739924467)
