@@ -31,7 +31,7 @@ func main() {
 ## Using error interface to create manage error output [^3]
 
 ```go
-// This iterface needs to be implemented
+// This interface needs to be implemented
 /*
 type error interface {
   Error() string
@@ -68,7 +68,7 @@ func main() {
 
 # MUST pattern
 
-Basically when an error occurs there is a situation where one would want the application to stop if not succeded. some use cases are, Initally making database connection or initlizing something for app to run and it fails.
+Basically when an error occurs there is a situation where one would want the application to stop if not succeeded. some use cases are, Initially making database connection or initializing something for app to run and it fails.
 
 Example: `func MustCompile(str string) *Regexp` [^2]
 
@@ -90,6 +90,108 @@ func Must[T any](obj T, err error) T {
     }
     return obj
 }
+```
+
+# Panic
+
+```go
+package main
+
+import "fmt"
+
+func causePanic() {
+	panic("something went terribly wrong")
+}
+
+func main() {
+	fmt.Println("Before panic")
+	causePanic()
+	fmt.Println("After panic") // This line won't be executed
+}
+```
+
+## Panic with defer
+
+Defer will run before panic
+
+```go
+package main
+
+import "fmt"
+
+func causePanic() {
+	panic("something went terribly wrong")
+}
+
+func main() {
+	defer func() {
+		fmt.Println("Ran before panic")
+	}()
+	fmt.Println("Before panic")
+	causePanic()
+	fmt.Println("After panic") // This line won't be executed
+}
+```
+
+## Recovering from Panic
+
+```go
+package main
+
+import "fmt"
+
+func safeFunction() {
+	defer func() {
+		if r := recover(); r != nil {
+			fmt.Println("Recovered from panic:", r)
+		}
+	}()
+	panic("unexpected error")
+}
+
+func main() {
+	safeFunction()
+	fmt.Println("Program continues after recovery")
+}
+```
+
+**Output**:
+```text
+Recovered from panic: unexpected error
+Program continues after recovery
+```
+
+### Recovering from Panic when Panic within nested functions
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	defer handlePanic() // recover is here, not in riskyFunction
+	riskyFunction()
+	fmt.Println("Program continues after recovery")
+}
+
+func panicInsideRiskyFunction() {
+	panic("something went wrong in panicInsideRiskyFunction")
+}
+
+func riskyFunction() {
+	panicInsideRiskyFunction()
+}
+
+func handlePanic() {
+	if r := recover(); r != nil {
+		fmt.Println("Recovered from panic:", r)
+	}
+}
+```
+
+**Output**:
+```text
+Recovered from panic: something went wrong in panicInsideRiskyFunction
 ```
 
 # Additional links
