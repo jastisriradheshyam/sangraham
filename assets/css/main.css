@@ -119,19 +119,23 @@ th {
     font-weight: bolder;
 }
 
-.cut-border-box {
+#cut-border-box {
+    font-size: 2.5em;
+}
+
+#cut-border-box-text {
     display: inline;
     background-color: #522d5b;
 }
 
-.cut-border-box-left {
+#cut-border-box-left {
     display: inline;
     padding: 0 0.3em 0 0.3em;
     background-color: #522d5b;
     clip-path: polygon(0 30%, 60% 0, 100% 0, 100% 100%, 0% 100%);
 }
 
-.cut-border-box-right {
+#cut-border-box-right {
     display: inline;
     padding: 0 0.3em 0 0.3em;
     background-color: #522d5b;
@@ -166,4 +170,28 @@ code {
 
 .list-item {
     margin: 0.5em;
+}
+
+h1 {
+  background: darkgreen;
+  border-radius: 0.3em;
+  padding: 0.1em;
+  padding-left: 0.5em;
+}
+
+h2 {
+  background: darkgreen;
+  border-radius: 0.3em;
+  padding: 0.1em;
+  padding-left: 0.5em;
+  padding-bottom: 0.2em;
+  margin-left: 1em;
+}
+
+h3 {
+  background: darkgreen;
+  border-radius: 0.3em;
+  padding: 0.1em;
+  padding-left: 0.5em;
+  margin-left: 2em;
 }
