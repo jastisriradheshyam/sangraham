@@ -13,12 +13,13 @@
     </head>
 
     <body>
-        {{ partial "header.html" }} {{ partial "breadcrumb.html" . }}
+        {{ partial "header.html" }}
         <div id="cut-border-box">
             <p id="cut-border-box-left"></p>
             <p id="cut-border-box-text">{{.Page.Title}}</p>
             <p id="cut-border-box-right"></p>
         </div>
+         {{ partial "breadcrumb.html" . }}
         {{ block "main" . }} {{ end }} {{ partial "footer.html" }}
     </body>
 </html>
