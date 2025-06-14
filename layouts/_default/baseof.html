@@ -15,9 +15,9 @@
     <body>
         {{ partial "nav.html" }} {{ partial "breadcrumb.html" . }}
         <div id="cut-border-box">
-            <h1 id="cut-border-box-left"></h1>
-            <h1 id="cut-border-box-text">{{.Page.Title}}</h1>
-            <h1 id="cut-border-box-right"></h1>
+            <p id="cut-border-box-left"></p>
+            <p id="cut-border-box-text">{{.Page.Title}}</p>
+            <p id="cut-border-box-right"></p>
         </div>
         {{ block "main" . }} {{ end }} {{ partial "footer.html" }}
     </body>
