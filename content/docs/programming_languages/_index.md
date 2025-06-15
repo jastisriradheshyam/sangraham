@@ -17,9 +17,9 @@ A programming language can be called as structured language if there is compartm
 
 Example: `C`
 
-## Block strucutured lanugage
+## Block structured language
 
-Block strucured lanuage permit procedures or functions to be declared inside other functions or procedures.[^4]
+Block structured language permit procedures or functions to be declared inside other functions or procedures.[^4]
 
 Example: `ALGOL`, `Pascal`, `Javascript` and `Swift`
 
@@ -27,7 +27,7 @@ Example: `ALGOL`, `Pascal`, `Javascript` and `Swift`
 
 "Reflection in computing is the ability of a program to examine its own structure, particularly through types; it’s a form of metaprogramming."[1]
 
-Languages support reflection (not a exaustive list)
+Languages support reflection (not a exhaustive list)
 
 1. Go [^1]
 2. Java
@@ -40,7 +40,7 @@ Languages support reflection (not a exaustive list)
 - Program code (object code in case of compiled)
 - Global variables
 - Stack
-    - It holds retrun addresses of function calls, arguments to functions, local variables, also current state of CPU, etc.
+    - It holds return addresses of function calls, arguments to functions, local variables, also current state of CPU, etc.
 - Heap
     - region where dynamic allocation is preformed at run time.
 

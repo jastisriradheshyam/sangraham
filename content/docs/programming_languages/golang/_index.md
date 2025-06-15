@@ -27,6 +27,17 @@ description = 'Golang'
 
 {{< files-list "docs/golang">}}
 
+# Tools & Libraries
+
+## Linting
+- [golangci-lint](https://golangci-lint.run)
+    - alternative to default linter
+
+# Additional Links
+
+1. [Read user input in Go (Golang) [cheatsheet]](https://gosamples.dev/read-user-input/)
+
+
 # References:
 
 1. [How to Write Go Code](https://go.dev/doc/code)
