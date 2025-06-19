@@ -8,6 +8,20 @@ description = 'Information on Database technologies'
 # List of databases
 {{< files-list >}}
 
+# Type of databases
+
+- SQL databases
+  - PostgreSQL, MySQL, MS SQL
+- Key Value databases
+  - Couch DB
+- Graph databases
+  - Neo4j DB
+- Column
+- Vector databases
+- Document databases
+  - Elastic search
+  - Mongo DB
+
 # Database Scaling
 
 - Indexing
@@ -51,6 +65,7 @@ description = 'Information on Database technologies'
 # Additional Reads
 
 1. [MySQL vs PostgreSQL -- Choose the Right Database for Your Project | Okta Developer](https://developer.okta.com/blog/2019/07/19/mysql-vs-postgres)
+2. [MySQL Documentation - Datacamp](https://www.datacamp.com/doc/mysql)
 
 # References
 

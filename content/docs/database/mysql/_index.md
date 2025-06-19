@@ -7,13 +7,13 @@ description = "Information on MySQL"
 
 # Add user:
 
-```
+```sql
 CREATE USER 'radhe'@'%' IDENTIFIED BY 'password';
 FLUSH PRIVILEGES;
 ```
 # update the host access:
 
-```
+```sql
 UPDATE mysql.user SET Host='%' WHERE Host='localhost' AND User='root';
 UPDATE mysql.db SET Host='%' WHERE Host='localhost' AND User='root';
 FLUSH PRIVILEGES;
