@@ -1,8 +1,8 @@
 +++
-title = 'Golang'
+title = 'Go Lang'
 date = 2024-11-11T10:02:38Z
 draft = false
-description = 'Golang'
+description = 'Go Lang'
 +++
 
 # Created by Google engineers:
@@ -25,7 +25,7 @@ description = 'Golang'
 
 # Categories
 
-{{< files-list "docs/golang">}}
+{{< files-list >}}
 
 # Tools & Libraries
 

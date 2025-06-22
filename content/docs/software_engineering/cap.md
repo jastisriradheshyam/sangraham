@@ -5,21 +5,22 @@ draft = false
 description = 'Information on CAP Theorem'
 +++
 
-CAP (Consistency, Availability, Partition Tolerance)
+# CAP (Consistency, Availability, Partition Tolerance)
 
 In a distributed data store, we can only guarantee two out of three of these properties
+
 - Consistency
 - Availability
 - Partition Tolerance
 
-# Consistency
+## Consistency
 
 Every read gets the most recent write or returns an error.
 
-# Availability
+## Availability
 
 Every request gets a response and be available, even if it's not the latest data.
 
-# Partition Tolerance
+## Partition Tolerance
 
 System stays operational even when there are network faults.
