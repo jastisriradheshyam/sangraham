@@ -194,6 +194,87 @@ func handlePanic() {
 Recovered from panic: something went wrong in panicInsideRiskyFunction
 ```
 
+## Recovering from Panic and returning the error within the function
+
+```go
+package main
+
+import (
+	"fmt"
+)
+
+func run() (errP error) {
+	defer func() {
+		err := recover()
+		if err != nil {
+			errP = fmt.Errorf("Error recover: %s", err)
+		}
+	}()
+	panic("A panic occurred")
+	return nil
+}
+
+func main() {
+	err := run()
+	if err != nil {
+		fmt.Println("error from run", err)
+	}
+}
+```
+
+### Output
+
+```text
+error from run Error recover: A panic occurred
+```
+
+## Panic within recovered function
+
+```go
+package main
+
+import (
+	"fmt"
+)
+
+func run() (errP error) {
+	defer func() {
+		err := recover()
+		if err != nil {
+			errP = fmt.Errorf("Error recover: %s", err)
+		}
+		panic("panic inside recover")
+	}()
+	panic("A panic occurred")
+	return nil
+}
+
+func main() {
+	err := run()
+	if err != nil {
+		fmt.Println("error from run", err)
+	}
+}
+```
+
+### output
+
+```text
+panic: A panic occurred [recovered]
+        panic: panic inside recover
+
+goroutine 1 [running]:
+main.run.func1()
+        /panic.go:13 +0x3d
+panic({0x49b740?, 0x4d7970?})
+        /usr/local/go/src/runtime/panic.go:785 +0x132
+main.run()
+        /panic.go:15 +0x58
+main.main()
+        /panic.go:20 +0x13
+exit status 2
+```
+
 # Additional links
 
 1. [Creating Custom Errors in Go | DigitalOcean](https://www.digitalocean.com/community/tutorials/creating-custom-errors-in-go)
