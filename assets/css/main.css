@@ -202,8 +202,8 @@ code {
 h1 {
     background: darkgreen;
     border-radius: 0.3em;
-    padding: 0.1em;
-    padding-left: 0.5rem;
+    padding: 0.1em 0.5em 0.1em 0.5em;
+    display: inline-block;
 }
 
 h1::before {
@@ -214,9 +214,8 @@ h1::before {
 h2 {
     background: darkgreen;
     border-radius: 0.3em;
-    padding: 0.1em;
-    padding-left: 0.5rem;
-    padding-bottom: 0.2em;
+    padding: 0.1em 0.5em 0.2em 0.5em;
+    display: inline-block;
 }
 
 h2::before {
@@ -227,8 +226,8 @@ h2::before {
 h3 {
     background: darkgreen;
     border-radius: 0.3em;
-    padding: 0.1em;
-    padding-left: 0.5rem;
+    padding: 0.1em 0.5em 0.1em 0.5em;
+    display: inline-block;
 }
 
 h3::before {
