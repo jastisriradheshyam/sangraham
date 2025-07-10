@@ -13,6 +13,10 @@ Collections: Organize related documents
 
 document model is inherently flexible. The document acts as the schema. This allows to create similar but different schemas for the same set of entities depending on the needs of the application.
 
+Mongo DB stores data in BSON format, its a binary format of json.
+- It is an extension to JSON
+- If provide additional datatype like: Date, ObjectId and Timestamps
+
 # Core design principles
 
 1. Polymorphism
@@ -22,6 +26,66 @@ document model is inherently flexible. The document acts as the schema. This all
 3. Embedding
   a. Embedding related documents into a parent document to represent relationships.
 
+# Architecture
+
+```
+Cluster
+  ↑
+Node
+  ↑
+Database
+  ↑
+Collection
+  ↑
+Document
+```
+
+- **Document**
+  - Smallest unit of data in mongodb
+  - Stores data in object and any related metadata
+  - Data is stored in field-value (key-value) pairs
+
+- **Collection**
+  - A collection is a group of documents that correspond to an entity
+  - Can support multiple entities and different shapes
+
+- **Database**
+  - A group of collections
+
+- **Node**
+  - A individual mongo db instance
+
+- **Cluster**
+  - Two type of clusters
+    - Replica sets
+      - High availability through replication
+    - Shared cluster
+      - Scaling through partitioning process called sharding
+  
+## Consistency in distributed setup
+
+Mongo DB manages data consistency through read and write concerns
+
+- Read Concern
+  - Read Concern controls the consistency and isolation of the data read from replica sets or sharded clusters
+  - By default read concern is set to "local", this means mongo db will return the data from the node on which the request was run, without waiting for acknowledgment from replica set members.
+    - This ensures high availability and low latency, but cannot guaranty consistency.
+  - The majority setting in read concern increases consistency.
+
+- Write concern
+  - Write concern dictates the number of replica set members that must confirm a write operation.
+  - By default write concern setting is set to majority.
+    - Majority of the replica set confirms the write is successful
+
+## Sharding
+
+- Sharding provides horizontal scalability
+- Add more shards to distribute the data
+
+# Limits
+
+- Maximum document size of 16MB
+-  In single document there can be maximum of 100 levels of nesting
 
 # Schema Validation
 
