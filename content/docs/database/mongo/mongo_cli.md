@@ -6,3 +6,6 @@ description = 'Information on Mongo DB CLI'
 +++
 
 - Help: `db.help()`
+
+- collection count: `db.collection.stats().count`
+- collection avg size: `db.collection.stats().avgObjSize`
